@@ -21,7 +21,6 @@ function CustomLink( to: any ) {
     const resolvedPath = useResolvedPath(to.to);
     const isActive = useMatch({ path: resolvedPath.pathname, end: true})
     
-    console.log(isActive);
     return (
         <li className={ isActive ? "active" : "" }>
             <Link to={to.to}> { to.children } </Link>

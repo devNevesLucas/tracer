@@ -4,8 +4,12 @@
     display: flex;
     background-color: #F5F5F5;
     justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
+.Navbar img {
+    width: 147px;
+}
 .Navbar ul {
     margin: 0;
     display: flex;

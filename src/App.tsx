@@ -17,7 +17,7 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/historic" element={<Historic />} />
         <Route path="/graph" element={<Graph />}/>
-        <Route path="/calender" element={<Calendar />}/>
+        <Route path="/calendar" element={<Calendar />}/>
       </Routes>
     </div>
   );

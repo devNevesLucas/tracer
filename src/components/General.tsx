@@ -3,11 +3,12 @@ import Calendar from "./Calendar";
 import Form from "./Form";
 import Historic from "./Historic";
 import Graph from "./Graph"
+import './General.css';
 
 function General() {
 
     return(
-        <div>
+        <div className="General">
             <Form />
             <Historic />
             <Calendar />

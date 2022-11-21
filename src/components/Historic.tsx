@@ -1,3 +1,5 @@
+import "./Historic.css";
+
 function Historic() {
     return (
         <div className="Historic">
